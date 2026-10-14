@@ -1,4 +1,4 @@
-# Students Database CRUD API
+﻿# Students Database CRUD API
 
 A Python backend for managing student records with Create, Read, Update and Delete
 operations. Built with **FastAPI**, **SQLAlchemy** and **SQLite**, with an optional
@@ -25,20 +25,20 @@ Python 3.12, FastAPI, SQLAlchemy, SQLite, Pydantic, Uvicorn, Pytest, Ollama (opt
 
 ```
 students-crud/
-├── app/
-│   ├── main.py          # FastAPI app and router registration
-│   ├── database.py      # SQLite engine, session, get_db dependency
-│   ├── models.py        # SQLAlchemy Student model
-│   ├── schemas.py       # Pydantic schemas and validation rules
-│   ├── crud.py          # Database operations
-│   ├── ai.py            # Record selection and Ollama client
-│   ├── seed.py          # Loads dummy data
-│   └── routers/
-│       ├── students.py  # CRUD endpoints
-│       └── ai.py        # AI question endpoint
-├── tests/               # Pytest tests (temporary DB per test)
-├── requirements.txt
-└── README.md
+â”œâ”€â”€ app/
+â”‚   â”œâ”€â”€ main.py          # FastAPI app and router registration
+â”‚   â”œâ”€â”€ database.py      # SQLite engine, session, get_db dependency
+â”‚   â”œâ”€â”€ models.py        # SQLAlchemy Student model
+â”‚   â”œâ”€â”€ schemas.py       # Pydantic schemas and validation rules
+â”‚   â”œâ”€â”€ crud.py          # Database operations
+â”‚   â”œâ”€â”€ ai.py            # Record selection and Ollama client
+â”‚   â”œâ”€â”€ seed.py          # Loads dummy data
+â”‚   â””â”€â”€ routers/
+â”‚       â”œâ”€â”€ students.py  # CRUD endpoints
+â”‚       â””â”€â”€ ai.py        # AI question endpoint
+â”œâ”€â”€ tests/               # Pytest tests (temporary DB per test)
+â”œâ”€â”€ requirements.txt
+â””â”€â”€ README.md
 ```
 
 ## Prerequisites
@@ -50,7 +50,7 @@ students-crud/
 ## Installation (Windows PowerShell)
 
 ```powershell
-git clone https://github.com/<your-username>/students-crud.git
+git clone https://github.com/honeyismail786-beep/students-crud.git
 cd students-crud
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
